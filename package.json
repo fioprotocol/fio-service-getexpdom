@@ -1,0 +1,21 @@
+{
+    "name": "fio-service-getexpdom",
+    "version": "1.0.0",
+    "description": "A service for burning expired FIO Domains",
+    "main": "./index.js",
+    "sideEffects": false,
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fioprotocol/fio-service-getexpdom"
+    },
+    "dependencies": {
+        "@fioprotocol/fiosdk": "^1.8.0",
+        "node-fetch": "^3.3.0",
+        "dotenv": "^16.0.3",
+        "web3": "1.8.1"
+    },
+    "scripts": {
+        "get-domains": "node get-expired-domains.js"
+    }
+}
