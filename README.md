@@ -1,5 +1,6 @@
-# fio-burn-expired
-Service to burn expired domains
+# fio-service-getexpdom
+
+A service for burning expired FIO Domains.
 
 ## Environment variables
 
