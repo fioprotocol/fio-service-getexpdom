@@ -1,5 +1,5 @@
 {
-    "name": "fio-service-getexpdom",
+    "name": "@fioprotocol/fio-service-getexpdom",
     "version": "1.0.0",
     "description": "A service for burning expired FIO Domains.",
     "main": "./get-expired-domains.js",
